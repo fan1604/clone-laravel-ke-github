@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+html, 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 2px 0px  2px 0px;
+ 
+}
+
+/* header Menu*/
+nav{
+    background-color: #222831 ;
+    color: #fff;
+    top: 0;
+    z-index: 100;
+    position: sticky;
+}
+
+nav > .wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > img{
+    height: 90px;
+}
+
+/*Hero / jumbutron*/
+header{
+    background: url(img/bg-header1.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000;
+}
+
+.header-opacity {
+    background-color: #222831;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-jumbotron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-jumbotron > h4 {
+    color: #FFEA20;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-jumbotron > h5 {
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.header-jumbotron > p {
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    text-shadow: none;
+}
+.button {
+    justify-content: space-between;
+    color: #000;
+    background-color:#FFEA20;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+}
+
+/*Statistic*/
+#statistic {
+    background-color: #393E46;
+color: #fff;
+font-family: "Kanit", sans-serif;
+}
+
+#statistic > .wrapper {
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#statistic > .wrapper > div {
+    text-align: center;
+}
+
+#statistic > .wrapper > div > p {
+    font-size: 3.5rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#statistic > .wrapper > div > p > i {
+   margin-right: 10px;
+   font-size: 3.5rem;
+}
+
+#statistic > .wrapper > div > small {
+    font-size: 1.5rem;
+ }
+
+ /*tentang saya*/
+ #tentang-saya {
+    background-color: #222831;
+    color: #fff;
+ }
+
+ #tentang-saya > .wrapper {
+    padding: 50px 0px 50px 0px;
+ }
+
+ #tentang-saya > .wrapper > h4 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+ }
+
+#tentang-saya > .wrapper > p {
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+
+#tentang-saya > .wrapper > div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tentang-saya > .wrapper > div > .foto {
+    width: 35%;
+}
+
+#tentang-saya > .wrapper > div > .foto > img {
+    max-width:100%;
+}
+
+#tentang-saya > .wrapper > div > .desc {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #393E46;
+    border-radius: 10px;
+    text-align: justify;
+   }
+
+   #tentang-saya > .wrapper > div > .desc > .sosial {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-size: 1.3rem;
+   }
+
+   #tentang-saya > .wrapper > div > .desc > .sosial > a{
+    color: #08D9D6;
+   }
+
+   /*Kontak*/
+#kontak {
+    background-color: #393E46;
+    color: #fff;
+}
+#kontak > .wrapper {
+    padding: 50px 0px 50px 0px;
+ }
+
+ #kontak > .wrapper > h4 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+ }
+
+#kontak > .wrapper > p {
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+
+.kontak {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.kontak > .infokontak {
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.kontak > .infokontak > .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.kontak > .infokontak > .box > .icon {
+    min-width: 60px;
+    height: 60px;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.kontak > .infokontak > .box > .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.kontak > .infokontak > .box > .text > h3{
+    font-weight: 500;
+    color: #FFEA20;
+}
+
